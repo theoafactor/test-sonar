@@ -1,0 +1,14 @@
+name: Sample Workflow
+on: 
+  push: 
+    branches: 
+      - master
+
+jobs: 
+  testjob:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: First set
+      runs: echo "Welcome"
+
+      
